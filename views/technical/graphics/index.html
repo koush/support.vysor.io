@@ -1,0 +1,15 @@
+{% extends "template.html" %}
+{% block body %}
+<div>
+  <h4>Windows Crash: !context_->is_null():</h4>
+</div>
+<p>This issue is usually occurs when your computer has an Intel onboard graphics and prefers that over the discrete graphics card like an NVIDIA or AMD.</p>
+<p><b>AMD:</b></p>
+<p>Radeon Settings > Preferences > Additional Settings > CCC Slim > Power > Switchable Graphics Application Settings.</p>
+<p>From this menu you can manually add applications to High Performance mode so they will use the Radeon GPU.</p>
+
+<p><b>NVIDIA:</b></p>
+<p>NVIDIA Control Panel > 3D Settings > Manage 3D Settings -> Program Settings > Select a Program to Customize > (Maybe uncheck Show only programs found on this computer) > Select Preferred Graphics Processor.</p>
+<p>Set your graphics processor to High Performance NVIDIA Processor.</p>
+
+{% endblock %}
