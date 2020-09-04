@@ -1,0 +1,25 @@
+{% extends "template.html" %}
+{% block body %}
+<div>
+  <h4>Can't Find your Android:</h4>
+</div>
+
+<ol>
+  <li>Restart your phone and restart your computer. You'd be surprised how often this fixes things.</li>
+
+  <li>Make sure you are using a USB DATA cable! Accidentally using a charge cable will not allow data transfer with the computer.</li>
+
+  <li>On Windows, download your the <a href='https://adb.clockworkmod.com'>Universal ADB Drivers</a>. If that doesn't work, try installing your manufacturer's drivers.</li>
+
+  <li>Enable ADB debugging</li>
+
+  <li>Set your USB mode to PTP (it is usually MTP or Charge Only)</li>
+</ol>
+
+
+<p>Check out the walkthrough video below for a step by step guide.</p>
+<p>Do not open a bug or contact support for this issue. If these steps do not resolve it, there is no "other" solution. Follow the instructions.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ucs34BkfPB0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+{% endblock %}
