@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "nunjucks '**/*.html' --path views --out docs && cp -R public/* docs"
+    "build": "nunjucks '**/*.html' --path views --out dist && cp -R public/* dist"
   },
   "devDependencies": {
     "nunjucks-cli": "^1.0.0"
