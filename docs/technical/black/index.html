@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en" style='height: 100%'>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <title>Vysor Support</title>
+  </head>
+  <body style='height: 100%'>
+    <div class="jumbotron">
+      <h1 class="display-4"><a href='/'>Vysor Support</a></h1>
+    </div>
+    <div class='container'>
+    <div>
+<div>
+  <h4>Fixing Black Screen:</h4>
+</div>
+
+<ol>
+<li><b>Restart</b>
+<p>Restart your phone and restart your computer. You'd be surprised how often this fixes things.</p></li>
+
+<li><b>Reset to Defaults</b>
+<p>Open your device settings in Vysor and click "Defaults". This will apply conservative settings that are likely to work.</p></li>
+
+<li><b>Verifying PNaCl and OpenGL</b>
+<p>Check if this <a href='https://gonativeclient.appspot.com/demo/cube'>test website</a> works.</p>
+
+<p>If this website does work properly, then please <a href='https://plus.google.com/110558071969009568835/posts/JLuG3yqRdSH'>submit</a> an issue using the template and information.</p>
+
+<p>If the cube website does NOT work, there is an issue with your computer, graphics card, or Chrome installation. Please verify the following.</p></li>
+
+<li><b>Checking PNaCl Installation</b>
+<p>Go to the following your browser:</p>
+<p>chrome://nacl/</p>
+<p>Verify that the Portable Native Client (PNaCl) is Enabled. If it is enabled, continue on to step 5. Otherwise, you will need to install it.</p>
+
+<p>To install PNaCl, go to: chrome://components and find pnacl. You will see that the version listed is 0.0.0.0. Check for updates and install it, restart. Once installed, check the link above again to see if it works. If not, continue on below.</p></li>
+
+<li><b>Checking OpenGL Drivers and Hardware acceleration</b>
+<p>Make sure your graphics cards drivers (especially on Windows) are updated to the latest version and hardware acceleration is enabled in Chrome:
+<ol>
+<li>Go to chrome://settings -> Show advanced settings.</li>
+<li>Here, you will find an option “Use hardware acceleration when available”.</li>
+<li>Check it and restart the browser.</li>
+</ol>
+</p></li>
+
+<li><b>Reinstall Chrome</b>
+<p>Often times, this black screen issue can simply be fixed by uninstalling and reinstalling Chrome, as older versions of Chrome may not have properly installed the PNaCL component. Please try this!</p></li>
+
+Do not open support tickets if the Cube demo does not work. The issue is not with Vysor, and is specific to your computer. The cube is a baseline test for WebGL. Please try the steps listed above for common solutions.
+
+
+
+    </div>
+  </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  </body>
+</html>
